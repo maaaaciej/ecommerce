@@ -12,4 +12,5 @@ Now done with the basic layout, routing and product pages. I still need to fix m
 
 
 <i>1/7/2020</i>
+
 Sign-in logic and styling done, as well as reusable form and button-components. Still need a shopping cart, individual product page, register component as well as the stripe api and firebase authentication
