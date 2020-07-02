@@ -24,3 +24,7 @@ Contemplating on wether or not I should use Redux.
 <i>2/7/2020</i>
 
 Added redux, as I had som prop-drilling in the application. Seemed like the most logical choice at the time, but regretted it for a short while, as I forgot how much of a pain setting up redux is. Added first reducers for current-user-management, as well as redirecting. If a current user exists in our state (not null), the user gets redirected if they try to access the /signin route. Still, I think it will make state management easier in the long run, as i still have more state-dependent components to add. 
+
+<i>2/7/2020</i>
+
+Now added a shopping cart, as well as conditional rendering based on the hidden-property of the state of cart component. Also added a cart-reducer.
