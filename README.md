@@ -20,3 +20,7 @@ Sign-in logic and styling done, as well as reusable form and button-components. 
 All of authentication and database management with firebase is done. Users are now able to sign up with google, or email and password, as well as signing in with either email and password, or google. Added components to accomodate for everything. 
 
 Contemplating on wether or not I should use Redux.
+
+<i>2/7/2020</i>
+
+Added redux, as I had som prop-drilling in the application. Seemed like the most logical choice at the time, but regretted it for a short while, as I forgot how much of a pain setting up redux is. Still, I think it will make state management easier in the long run, as i still have more state-dependent components to add. 
