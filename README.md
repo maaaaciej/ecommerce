@@ -38,4 +38,8 @@ Starting the morning with adding a new action-type in my cart reducer, so that t
 
 Added the reselect library to enhance performance, no need for redux to rerender everything when unrelated props change. implemented it for the cart, so that it does not have to rerender if the user logs in, or anything else for that matter. 
 
+<i>3/7/2020</i>
 
+Added a component that renders each item in the cart-item array inside of the cart on our page. Added a checkout page that renders all of the cart items, as well as a total amount. Changed all of the state and prop functions in redux to use the reselect library. Refactored some things here and there. 
+
+Debugged a lot as well, and made a mental note of checking style-compability across browsers before checking it off my todo list. 
