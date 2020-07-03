@@ -32,3 +32,10 @@ Now added a shopping cart, as well as conditional rendering based on the hidden-
 <i>3/7/2020</i>
 
 Starting the morning with adding a new action-type in my cart reducer, so that the cart, in addition to knowing wether it is hidden or not, has an array with items that we add to cart. Added a new property to it as well, so that if an item (searched by id) already exist in the cart-items array, we update the quantity of it, instead of adding it as a new index entry in the array.
+
+
+<i>3/7/2020</i>
+
+Added the reselect library to enhance performance, no need for redux to rerender everything when unrelated props change. implemented it for the cart, so that it does not have to rerender if the user logs in, or anything else for that matter. 
+
+
