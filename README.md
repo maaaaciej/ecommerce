@@ -43,3 +43,10 @@ Added the reselect library to enhance performance, no need for redux to rerender
 Added a component that renders each item in the cart-item array inside of the cart on our page. Added a checkout page that renders all of the cart items, as well as a total amount. Changed all of the state and prop functions in redux to use the reselect library. Refactored some things here and there. 
 
 Debugged a lot as well, and made a mental note of checking style-compability across browsers before checking it off my todo list. 
+
+
+<i>3/7/2020</i>
+
+Final update of the day! Managed to include functionality for dynamically adding and removing items to the cart directly from the checkout page. The application is starting to come together nicely now. 
+
+Think i will work on the nested routing of the different categories in in the shop (/shop/mens shows all of the items with type mens, etc..) tomorrow.
