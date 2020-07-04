@@ -65,3 +65,8 @@ Now added nested routing, so with individual category pages, that render based o
 Moved the data out of the component and into the reducers for cleanliness sake. 
 
 Way more work than these two paragraphs above show, as I ripped my hair out for half an hour, because I tried to map over an object. All solved itself when i added a new selector for the collection items, that uses the Object.keys() method, and managed to map as before based on that.
+
+
+<i>4/7/2020</i>
+
+Could call it complete now! Integrated stripe, as well as a stripe-checkout component. Changed title of the page. Ready to deploy.
