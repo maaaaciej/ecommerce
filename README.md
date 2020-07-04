@@ -1,5 +1,14 @@
 <h1>React Ecommerce Platform</h1>
 
+<b>It is now live over on http://maciejclothing.herokuapp.com/shop</b>
+
+It's been a long week of hair-pulling and coffee drinking, but the project is now live on heroku! This is a first version of it, and i will most likely continue working on it, until I'm happy with it myself. 
+
+Some focus areas are the styling, as well as maybe trying out hooks, haven't worked that much with them yet.
+
+Read down below for the devlog.
+
+
 <i>28/6/2020</i>
 
 A react application I'm building, that is going to be a functioning ecommerce platform.
