@@ -56,3 +56,12 @@ Think i will work on the nested routing of the different categories in in the sh
 Added redux-persist, so that our users dont't lose the things they have in their cart if they refresh or accidentaly close the tab. 
 
 I only whitelisted the cart object in our state to be stored, as the current-user-session is handled directly by firebase. 
+
+
+<i>4/7/2020</i>
+
+Now added nested routing, so with individual category pages, that render based on the key in the data-object (hats goes to hats, etc..)
+
+Moved the data out of the component and into the reducers for cleanliness sake. 
+
+Way more work than these two paragraphs above show, as I ripped my hair out for half an hour, because I tried to map over an object. All solved itself when i added a new selector for the collection items, that uses the Object.keys() method, and managed to map as before based on that.
