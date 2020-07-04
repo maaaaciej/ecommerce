@@ -50,3 +50,9 @@ Debugged a lot as well, and made a mental note of checking style-compability acr
 Final update of the day! Managed to include functionality for dynamically adding and removing items to the cart directly from the checkout page. The application is starting to come together nicely now. 
 
 Think i will work on the nested routing of the different categories in in the shop (/shop/mens shows all of the items with type mens, etc..) tomorrow.
+
+<i>4/7/2020</i>
+
+Added redux-persist, so that our users dont't lose the things they have in their cart if they refresh or accidentaly close the tab. 
+
+I only whitelisted the cart object in our state to be stored, as the current-user-session is handled directly by firebase. 
