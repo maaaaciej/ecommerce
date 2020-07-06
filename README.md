@@ -79,3 +79,7 @@ Way more work than these two paragraphs above show, as I ripped my hair out for 
 <i>4/7/2020</i>
 
 Could call it complete now! Integrated stripe, as well as a stripe-checkout component. Changed title of the page. Ready to deploy.
+
+<i>4/7/2020</i>
+
+Uploaded shop data to firebase, preparing to storing it there and fetching asynchronously, instead of statically storing it in our application. Better for scalability, as well as it better reflects on a realistic scenario. 
