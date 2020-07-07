@@ -92,3 +92,8 @@ Added a higher-order-component that checks wether or not the data has come back 
 
 Gave me some good practice with higher order components, but now have to put the asynchronous state in redux. 
 
+<i>7/7/2020</i>
+
+Finished all of the async api calls with redux thunk.  Need to work more with both redux and redux thunk, can make it work, but dont't quite master it yet to the point where I can say I am 100% comfortable with it. 
+
+
