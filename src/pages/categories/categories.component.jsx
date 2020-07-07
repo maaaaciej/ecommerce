@@ -5,7 +5,7 @@ import "./categories.style.scss"
 import {selectCollectionId} from "../../redux/collection/collection.selectors"
 
 const Category = ({collection}) => {
-const {title, items} =collection
+    const { title, items } = collection ? collection : {title: '', items: []};
     return ( <div className="collection-page">
         <h2 className="title">{title.toUpperCase()}</h2>
         <div className="items">
