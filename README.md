@@ -80,6 +80,15 @@ Way more work than these two paragraphs above show, as I ripped my hair out for 
 
 Could call it complete now! Integrated stripe, as well as a stripe-checkout component. Changed title of the page. Ready to deploy.
 
-<i>4/7/2020</i>
+<i>6/7/2020</i>
 
 Uploaded shop data to firebase, preparing to storing it there and fetching asynchronously, instead of statically storing it in our application. Better for scalability, as well as it better reflects on a realistic scenario. 
+
+<i>7/7/2020</i>
+
+Now moved all of the data out of the application and over to firebase. As the initital state was static, I did not have to worry about it until i removed it completely from the application. This gave me some headache, as I  had to convert my reducers to work asynchronously, something that went alrigt. 
+
+Added a higher-order-component that checks wether or not the data has come back from firestore yet, and displays a spinner until it does. 
+
+Gave me some good practice with higher order components, but now have to put the asynchronous state in redux. 
+
