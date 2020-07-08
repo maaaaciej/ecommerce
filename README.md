@@ -101,11 +101,10 @@ Finished all of the async api calls with redux thunk.  Need to work more with bo
 
 Did a big review of the codebase today, noticed some things. 
 
-    <ol>
-        <li>Need to tweak the styling to better suit mobile users. Ditch pixel-values for percentages and vw/vh-values</li>
-        <li>Need to clear the cart after payments are processed</li>
-        <li>Need to redirect users to a thank you-page after when we get the confirmation token from stripe.</li>
-        <li>Need to remove the redux-logger from the production app</li>
-    </ol>
+
+    1. Need to tweak the styling to better suit mobile users. Ditch pixel-values for percentages and vw/vh-values.
+    2. Need to clear the cart after payments are processed.
+    3. Need to redirect users to a thank you-page after when we get the confirmation token from stripe.
+    4. Need to remove the redux-logger from the production app.
 
 Will work on fixing these, as well as some other projects this week. 
