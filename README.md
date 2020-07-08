@@ -97,3 +97,15 @@ Gave me some good practice with higher order components, but now have to put the
 Finished all of the async api calls with redux thunk.  Need to work more with both redux and redux thunk, can make it work, but dont't quite master it yet to the point where I can say I am 100% comfortable with it. 
 
 
+<i>8/7/2020</i>
+
+Did a big review of the codebase today, noticed some things. 
+
+    <ol>
+        <li>Need to tweak the styling to better suit mobile users. Ditch pixel-values for percentages and vw/vh-values</li>
+        <li>Need to clear the cart after payments are processed</li>
+        <li>Need to redirect users to a thank you-page after when we get the confirmation token from stripe.</li>
+        <li>Need to remove the redux-logger from the production app</li>
+    </ol>
+
+Will work on fixing these, as well as some other projects this week. 

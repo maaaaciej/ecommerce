@@ -1,21 +1,23 @@
-import React from 'react'
-import {connect} from "react-redux"
-import CollectionItem from "../../components/collection-item/collection-item.component"
-import "./categories.style.scss"
-import {selectCollectionId} from "../../redux/collection/collection.selectors"
+import React from "react";
+import { connect } from "react-redux";
+import CollectionItem from "../../components/collection-item/collection-item.component";
+import "./categories.style.scss";
+import { selectCollectionId } from "../../redux/collection/collection.selectors";
 
-const Category = ({collection}) => {
-    const { title, items } = collection ? collection : {title: '', items: []};
-    return ( <div className="collection-page">
-        <h2 className="title">{title.toUpperCase()}</h2>
-        <div className="items">
-            {items.map(item=> (
-                <CollectionItem key={item.id} item={item}/>
-            ))}
-        </div>
-    </div> );
-}
- const mapStateToProps =(state, ownProps)=>({
-     collection:selectCollectionId(ownProps.match.params.categoryId)(state)
- })
+const Category = ({ collection }) => {
+  const { title, items } = collection ? collection : { title: "", items: [] };
+  return (
+    <div className="collection-page">
+      <h2 className="title">{title.toUpperCase()}</h2>
+      <div className="items">
+        {items.map((item) => (
+          <CollectionItem key={item.id} item={item} />
+        ))}
+      </div>
+    </div>
+  );
+};
+const mapStateToProps = (state, ownProps) => ({
+  collection: selectCollectionId(ownProps.match.params.categoryId)(state),
+});
 export default connect(mapStateToProps)(Category);
