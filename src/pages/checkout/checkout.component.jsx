@@ -2,6 +2,7 @@ import React from "react";
 import CheckoutItem from "../../components/checkout-item/checkout-item.component";
 import { connect } from "react-redux";
 import { createStructuredSelector } from "reselect";
+import {Redirect} from "react-router-dom"
 import {
   selectCartItems,
   selectCartTotal,
