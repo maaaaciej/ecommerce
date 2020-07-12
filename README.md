@@ -108,3 +108,10 @@ Did a big review of the codebase today, noticed some things.
 4. Need to remove the redux-logger from the production app.
 
 Will work on fixing these, as well as some other projects this week. 
+
+
+<i>12/7/2020</i>
+
+Home from vacation now! Started off by updating the styling to be mobile responsive. 
+
+Now need to make the thank-you page, as well as clearing the cart after the token comes back from stripe. 
