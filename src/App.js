@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.scss";
 import { Switch, Route, Redirect } from "react-router-dom";
 import HomePage from "./pages/homepage/homepage.component";
 import ShopPage from "./pages/shop/shop.component";
@@ -13,7 +12,7 @@ import { setCurrentUser } from "./redux/users/users.actions";
 import {createStructuredSelector} from "reselect"
 import { selectCurrentUser } from "./redux/users/users.selectors";
 import {selectCollectionsForPreview} from "./redux/collection/collection.selectors"
-
+import {GlobalStyle} from "./global.styles"
 
 class App extends React.Component {
   unsubscribeFromAuth = null;
@@ -43,6 +42,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="">
+        <GlobalStyle/>
         <Header />
         <Switch>
           <Route exact path="/" component={HomePage} />
